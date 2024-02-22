@@ -10,7 +10,7 @@ docker build -t arindamgb/django_blog_project:1.0 .
 docker run -itd --name django_blog_project -p 8087:8000 arindamgb/django_blog_project:1.0
 ```
 
-# Below configs kept for testing purpose:
+# Below configs kept for testing purpose
 ```
 DEBUG = True
 ALLOWED_HOSTS = ['*']
